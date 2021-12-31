@@ -1,3 +1,6 @@
+
+
+
 ###### SIMULATION 1 - DOMINANCE COEFFICIENT 0.0 
 
 # Run forward time simulation 
@@ -8,50 +11,50 @@ bin/SimBit f Dominance_Simulations/Dominance_Trait1_300.txt all
 ## Obtain heterozygosity, measuring with inbreeding coefficient F, from all specified generations from vcf files 
 vcftools --vcf SimulationResults/Simulation1300_celegans_G0.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G0
 vcftools --vcf SimulationResults/Simulation1300_celegans_G2.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G2
-vcftools --vcf SimulationResults/Simulation1300_celegans_G50.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G50
-vcftools --vcf SimulationResults/Simulation1300_celegans_G100.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G100
-vcftools --vcf SimulationResults/Simulation1300_celegans_G150.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G150
-vcftools --vcf SimulationResults/Simulation1300_celegans_G200.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G200
-vcftools --vcf SimulationResults/Simulation1300_celegans_G250.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G250
-vcftools --vcf SimulationResults/Simulation1300_celegans_G300.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G300
-vcftools --vcf SimulationResults/Simulation1300_celegans_G350.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G350
-vcftools --vcf SimulationResults/Simulation1300_celegans_G400.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G400
-vcftools --vcf SimulationResults/Simulation1300_celegans_G450.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G450
-vcftools --vcf SimulationResults/Simulation1300_celegans_G501.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G501
-vcftools --vcf SimulationResults/Simulation1300_celegans_G550.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G550
-vcftools --vcf SimulationResults/Simulation1300_celegans_G600.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G600
-vcftools --vcf SimulationResults/Simulation1300_celegans_G650.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G650
-vcftools --vcf SimulationResults/Simulation1300_celegans_G700.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G700
-vcftools --vcf SimulationResults/Simulation1300_celegans_G750.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G750
-vcftools --vcf SimulationResults/Simulation1300_celegans_G800.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G800
-vcftools --vcf SimulationResults/Simulation1300_celegans_G850.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G850
-vcftools --vcf SimulationResults/Simulation1300_celegans_G900.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G900
-vcftools --vcf SimulationResults/Simulation1300_celegans_G950.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G950
-vcftools --vcf SimulationResults/Simulation1300_celegans_G1000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G1000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G10000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G10000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G20000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G20000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G30000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G30000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G40000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G40000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G50000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G50000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G60000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G60000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G70000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G70000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G80000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G80000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G90000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G90000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G100001.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G100001
+vcftools --vcf SimulationResults/Simulation1300_celegans_G110000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G110000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G120000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G120000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G130000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G130000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G140000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G140000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G150000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G150000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G160000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G160000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G170000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G170000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G180000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G180000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G190000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G190000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G200000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait1300_G200000
 
 ## Obtain site nucleotide diversity estimates from vcf files 
 vcftools --vcf SimulationResults/Simulation1300_celegans_G0.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G0
 vcftools --vcf SimulationResults/Simulation1300_celegans_G2.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G2
-vcftools --vcf SimulationResults/Simulation1300_celegans_G50.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G50
-vcftools --vcf SimulationResults/Simulation1300_celegans_G100.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G100
-vcftools --vcf SimulationResults/Simulation1300_celegans_G150.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G150
-vcftools --vcf SimulationResults/Simulation1300_celegans_G200.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G200
-vcftools --vcf SimulationResults/Simulation1300_celegans_G250.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G250
-vcftools --vcf SimulationResults/Simulation1300_celegans_G300.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G300
-vcftools --vcf SimulationResults/Simulation1300_celegans_G350.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G350
-vcftools --vcf SimulationResults/Simulation1300_celegans_G400.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G400
-vcftools --vcf SimulationResults/Simulation1300_celegans_G450.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G450
-vcftools --vcf SimulationResults/Simulation1300_celegans_G501.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G501
-vcftools --vcf SimulationResults/Simulation1300_celegans_G550.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G550
-vcftools --vcf SimulationResults/Simulation1300_celegans_G600.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G600
-vcftools --vcf SimulationResults/Simulation1300_celegans_G650.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G650
-vcftools --vcf SimulationResults/Simulation1300_celegans_G700.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G700
-vcftools --vcf SimulationResults/Simulation1300_celegans_G750.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G750
-vcftools --vcf SimulationResults/Simulation1300_celegans_G800.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G800
-vcftools --vcf SimulationResults/Simulation1300_celegans_G850.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G850
-vcftools --vcf SimulationResults/Simulation1300_celegans_G900.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G900
-vcftools --vcf SimulationResults/Simulation1300_celegans_G950.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G950
-vcftools --vcf SimulationResults/Simulation1300_celegans_G1000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G1000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G10000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G10000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G20000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G20000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G30000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G30000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G40000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G40000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G50000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G50000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G60000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G60000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G70000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G70000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G80000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G80000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G90000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G90000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G100001.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G100001
+vcftools --vcf SimulationResults/Simulation1300_celegans_G110000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G110000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G120000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G120000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G130000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G130000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G140000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G140000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G150000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G150000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G160000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G160000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G170000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G170000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G180000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G180000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G190000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G190000
+vcftools --vcf SimulationResults/Simulation1300_celegans_G200000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait1300_G200000
 
 
 ###### SIMULATION 2 - DOMINANCE COEFFICIENT 0.125 
@@ -64,51 +67,51 @@ bin/SimBit f Dominance_Simulations/Dominance_Trait2_300.txt all
 ## Obtain heterozygosity, measuring with inbreeding coefficient F, from all specified generations from vcf files
 vcftools --vcf SimulationResults/Simulation2300_celegans_G0.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G0
 vcftools --vcf SimulationResults/Simulation2300_celegans_G2.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G2
-vcftools --vcf SimulationResults/Simulation2300_celegans_G50.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G50
-vcftools --vcf SimulationResults/Simulation2300_celegans_G100.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G100
-vcftools --vcf SimulationResults/Simulation2300_celegans_G150.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G150
-vcftools --vcf SimulationResults/Simulation2300_celegans_G200.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G200
-vcftools --vcf SimulationResults/Simulation2300_celegans_G250.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G250
-vcftools --vcf SimulationResults/Simulation2300_celegans_G300.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G300
-vcftools --vcf SimulationResults/Simulation2300_celegans_G350.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G350
-vcftools --vcf SimulationResults/Simulation2300_celegans_G400.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G400
-vcftools --vcf SimulationResults/Simulation2300_celegans_G450.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G450
-vcftools --vcf SimulationResults/Simulation2300_celegans_G501.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G501
-vcftools --vcf SimulationResults/Simulation2300_celegans_G550.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G550
-vcftools --vcf SimulationResults/Simulation2300_celegans_G600.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G600
-vcftools --vcf SimulationResults/Simulation2300_celegans_G650.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G650
-vcftools --vcf SimulationResults/Simulation2300_celegans_G700.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G700
-vcftools --vcf SimulationResults/Simulation2300_celegans_G750.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G750
-vcftools --vcf SimulationResults/Simulation2300_celegans_G800.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G800
-vcftools --vcf SimulationResults/Simulation2300_celegans_G850.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G850
-vcftools --vcf SimulationResults/Simulation2300_celegans_G900.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G900
-vcftools --vcf SimulationResults/Simulation2300_celegans_G950.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G950
-vcftools --vcf SimulationResults/Simulation2300_celegans_G1000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G1000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G10000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G10000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G20000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G20000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G30000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G30000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G40000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G40000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G50000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G50000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G60000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G60000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G70000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G70000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G80000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G80000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G90000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G90000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G100001.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G100001
+vcftools --vcf SimulationResults/Simulation2300_celegans_G110000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G110000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G120000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G120000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G130000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G130000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G140000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G140000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G150000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G150000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G160000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G160000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G170000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G170000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G180000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G180000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G190000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G190000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G200000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait2300_G200000
 
 
 ## Obtain site nucleotide diversity estimates from vcf files 
 vcftools --vcf SimulationResults/Simulation2300_celegans_G0.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G0
 vcftools --vcf SimulationResults/Simulation2300_celegans_G2.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G2
-vcftools --vcf SimulationResults/Simulation2300_celegans_G50.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G50
-vcftools --vcf SimulationResults/Simulation2300_celegans_G100.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G100
-vcftools --vcf SimulationResults/Simulation2300_celegans_G150.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G150
-vcftools --vcf SimulationResults/Simulation2300_celegans_G200.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G200
-vcftools --vcf SimulationResults/Simulation2300_celegans_G250.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G250
-vcftools --vcf SimulationResults/Simulation2300_celegans_G300.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G300
-vcftools --vcf SimulationResults/Simulation2300_celegans_G350.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G350
-vcftools --vcf SimulationResults/Simulation2300_celegans_G400.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G400
-vcftools --vcf SimulationResults/Simulation2300_celegans_G450.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G450
-vcftools --vcf SimulationResults/Simulation2300_celegans_G501.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G501
-vcftools --vcf SimulationResults/Simulation2300_celegans_G550.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G550
-vcftools --vcf SimulationResults/Simulation2300_celegans_G600.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G600
-vcftools --vcf SimulationResults/Simulation2300_celegans_G650.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G650
-vcftools --vcf SimulationResults/Simulation2300_celegans_G700.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G700
-vcftools --vcf SimulationResults/Simulation2300_celegans_G750.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G750
-vcftools --vcf SimulationResults/Simulation2300_celegans_G800.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G800
-vcftools --vcf SimulationResults/Simulation2300_celegans_G850.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G850
-vcftools --vcf SimulationResults/Simulation2300_celegans_G900.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G900
-vcftools --vcf SimulationResults/Simulation2300_celegans_G950.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G950
-vcftools --vcf SimulationResults/Simulation2300_celegans_G1000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G1000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G10000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G10000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G20000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G20000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G30000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G30000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G40000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G40000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G50000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G50000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G60000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G60000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G70000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G70000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G80000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G80000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G90000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G90000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G100001.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G100001
+vcftools --vcf SimulationResults/Simulation2300_celegans_G110000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G110000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G120000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G120000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G130000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G130000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G140000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G140000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G150000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G150000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G160000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G160000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G170000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G170000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G180000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G180000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G190000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G190000
+vcftools --vcf SimulationResults/Simulation2300_celegans_G200000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait2300_G200000
 
 
 
@@ -123,52 +126,51 @@ bin/SimBit f Dominance_Simulations/Dominance_Trait3_300.txt all
 ## Obtain heterozygosity, measuring with inbreeding coefficient F, from all specified generations from vcf files
 vcftools --vcf SimulationResults/Simulation3300_celegans_G0.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G0
 vcftools --vcf SimulationResults/Simulation3300_celegans_G2.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G2
-vcftools --vcf SimulationResults/Simulation3300_celegans_G50.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G50
-vcftools --vcf SimulationResults/Simulation3300_celegans_G100.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G100
-vcftools --vcf SimulationResults/Simulation3300_celegans_G150.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G150
-vcftools --vcf SimulationResults/Simulation3300_celegans_G200.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G200
-vcftools --vcf SimulationResults/Simulation3300_celegans_G250.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G250
-vcftools --vcf SimulationResults/Simulation3300_celegans_G300.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G300
-vcftools --vcf SimulationResults/Simulation3300_celegans_G350.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G350
-vcftools --vcf SimulationResults/Simulation3300_celegans_G400.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G400
-vcftools --vcf SimulationResults/Simulation3300_celegans_G450.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G450
-vcftools --vcf SimulationResults/Simulation3300_celegans_G501.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G501
-vcftools --vcf SimulationResults/Simulation3300_celegans_G550.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G550
-vcftools --vcf SimulationResults/Simulation3300_celegans_G600.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G600
-vcftools --vcf SimulationResults/Simulation3300_celegans_G650.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G650
-vcftools --vcf SimulationResults/Simulation3300_celegans_G700.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G700
-vcftools --vcf SimulationResults/Simulation3300_celegans_G750.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G750
-vcftools --vcf SimulationResults/Simulation3300_celegans_G800.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G800
-vcftools --vcf SimulationResults/Simulation3300_celegans_G850.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G850
-vcftools --vcf SimulationResults/Simulation3300_celegans_G900.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G900
-vcftools --vcf SimulationResults/Simulation3300_celegans_G950.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G950
-vcftools --vcf SimulationResults/Simulation3300_celegans_G1000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G1000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G10000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G10000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G20000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G20000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G30000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G30000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G40000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G40000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G50000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G50000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G60000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G60000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G70000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G70000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G80000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G80000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G90000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G90000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G100001.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G100001
+vcftools --vcf SimulationResults/Simulation3300_celegans_G110000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G110000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G120000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G120000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G130000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G130000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G140000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G140000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G150000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G150000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G160000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G160000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G170000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G170000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G180000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G180000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G190000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G190000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G200000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait3300_G200000
 
 
 ## Obtain site nucleotide diversity estimates from vcf files 
 vcftools --vcf SimulationResults/Simulation3300_celegans_G0.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G0
 vcftools --vcf SimulationResults/Simulation3300_celegans_G2.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G2
-vcftools --vcf SimulationResults/Simulation3300_celegans_G50.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G50
-vcftools --vcf SimulationResults/Simulation3300_celegans_G100.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G100
-vcftools --vcf SimulationResults/Simulation3300_celegans_G150.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G150
-vcftools --vcf SimulationResults/Simulation3300_celegans_G200.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G200
-vcftools --vcf SimulationResults/Simulation3300_celegans_G250.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G250
-vcftools --vcf SimulationResults/Simulation3300_celegans_G300.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G300
-vcftools --vcf SimulationResults/Simulation3300_celegans_G350.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G350
-vcftools --vcf SimulationResults/Simulation3300_celegans_G400.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G400
-vcftools --vcf SimulationResults/Simulation3300_celegans_G450.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G450
-vcftools --vcf SimulationResults/Simulation3300_celegans_G501.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G501
-vcftools --vcf SimulationResults/Simulation3300_celegans_G550.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G550
-vcftools --vcf SimulationResults/Simulation3300_celegans_G600.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G600
-vcftools --vcf SimulationResults/Simulation3300_celegans_G650.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G650
-vcftools --vcf SimulationResults/Simulation3300_celegans_G700.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G700
-vcftools --vcf SimulationResults/Simulation3300_celegans_G750.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G750
-vcftools --vcf SimulationResults/Simulation3300_celegans_G800.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G800
-vcftools --vcf SimulationResults/Simulation3300_celegans_G850.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G850
-vcftools --vcf SimulationResults/Simulation3300_celegans_G900.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G900
-vcftools --vcf SimulationResults/Simulation3300_celegans_G950.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G950
-vcftools --vcf SimulationResults/Simulation3300_celegans_G1000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G1000
-
+vcftools --vcf SimulationResults/Simulation3300_celegans_G10000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G10000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G20000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G20000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G30000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G30000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G40000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G40000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G50000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G50000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G60000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G60000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G70000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G70000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G80000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G80000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G90000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G90000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G100001.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G100001
+vcftools --vcf SimulationResults/Simulation3300_celegans_G110000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G110000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G120000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G120000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G130000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G130000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G140000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G140000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G150000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G150000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G160000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G160000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G170000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G170000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G180000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G180000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G190000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G190000
+vcftools --vcf SimulationResults/Simulation3300_celegans_G200000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait3300_G200000
 
 
 
@@ -182,52 +184,52 @@ bin/SimBit f Dominance_Simulations/Dominance_Trait4_300.txt all
 ## Obtain heterozygosity, measuring with inbreeding coefficient F, from all specified generations from vcf files
 vcftools --vcf SimulationResults/Simulation4300_celegans_G0.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G0
 vcftools --vcf SimulationResults/Simulation4300_celegans_G2.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G2
-vcftools --vcf SimulationResults/Simulation4300_celegans_G50.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G50
-vcftools --vcf SimulationResults/Simulation4300_celegans_G100.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G100
-vcftools --vcf SimulationResults/Simulation4300_celegans_G150.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G150
-vcftools --vcf SimulationResults/Simulation4300_celegans_G200.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G200
-vcftools --vcf SimulationResults/Simulation4300_celegans_G250.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G250
-vcftools --vcf SimulationResults/Simulation4300_celegans_G300.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G300
-vcftools --vcf SimulationResults/Simulation4300_celegans_G350.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G350
-vcftools --vcf SimulationResults/Simulation4300_celegans_G400.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G400
-vcftools --vcf SimulationResults/Simulation4300_celegans_G450.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G450
-vcftools --vcf SimulationResults/Simulation4300_celegans_G501.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G501
-vcftools --vcf SimulationResults/Simulation4300_celegans_G550.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G550
-vcftools --vcf SimulationResults/Simulation4300_celegans_G600.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G600
-vcftools --vcf SimulationResults/Simulation4300_celegans_G650.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G650
-vcftools --vcf SimulationResults/Simulation4300_celegans_G700.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G700
-vcftools --vcf SimulationResults/Simulation4300_celegans_G750.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G750
-vcftools --vcf SimulationResults/Simulation4300_celegans_G800.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G800
-vcftools --vcf SimulationResults/Simulation4300_celegans_G850.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G850
-vcftools --vcf SimulationResults/Simulation4300_celegans_G900.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G900
-vcftools --vcf SimulationResults/Simulation4300_celegans_G950.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G950
-vcftools --vcf SimulationResults/Simulation4300_celegans_G1000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G1000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G10000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G10000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G20000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G20000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G30000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G30000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G40000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G40000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G50000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G50000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G60000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G60000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G70000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G70000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G80000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G80000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G90000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G90000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G100001.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G100001
+vcftools --vcf SimulationResults/Simulation4300_celegans_G110000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G110000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G120000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G120000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G130000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G130000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G140000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G140000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G150000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G150000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G160000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G160000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G170000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G170000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G180000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G180000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G190000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G190000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G200000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait4300_G200000
 
 
 
 ## Obtain site nucleotide diversity estimates from vcf files 
 vcftools --vcf SimulationResults/Simulation4300_celegans_G0.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G0
 vcftools --vcf SimulationResults/Simulation4300_celegans_G2.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G2
-vcftools --vcf SimulationResults/Simulation4300_celegans_G50.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G50
-vcftools --vcf SimulationResults/Simulation4300_celegans_G100.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G100
-vcftools --vcf SimulationResults/Simulation4300_celegans_G150.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G150
-vcftools --vcf SimulationResults/Simulation4300_celegans_G200.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G200
-vcftools --vcf SimulationResults/Simulation4300_celegans_G250.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G250
-vcftools --vcf SimulationResults/Simulation4300_celegans_G300.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G300
-vcftools --vcf SimulationResults/Simulation4300_celegans_G350.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G350
-vcftools --vcf SimulationResults/Simulation4300_celegans_G400.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G400
-vcftools --vcf SimulationResults/Simulation4300_celegans_G450.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G450
-vcftools --vcf SimulationResults/Simulation4300_celegans_G501.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G501
-vcftools --vcf SimulationResults/Simulation4300_celegans_G550.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G550
-vcftools --vcf SimulationResults/Simulation4300_celegans_G600.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G600
-vcftools --vcf SimulationResults/Simulation4300_celegans_G650.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G650
-vcftools --vcf SimulationResults/Simulation4300_celegans_G700.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G700
-vcftools --vcf SimulationResults/Simulation4300_celegans_G750.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G750
-vcftools --vcf SimulationResults/Simulation4300_celegans_G800.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G800
-vcftools --vcf SimulationResults/Simulation4300_celegans_G850.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G850
-vcftools --vcf SimulationResults/Simulation4300_celegans_G900.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G900
-vcftools --vcf SimulationResults/Simulation4300_celegans_G950.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G950
-vcftools --vcf SimulationResults/Simulation4300_celegans_G1000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G1000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G10000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G10000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G20000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G20000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G30000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G30000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G40000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G40000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G50000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G50000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G60000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G60000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G70000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G70000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G80000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G80000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G90000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G90000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G100001.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G100001
+vcftools --vcf SimulationResults/Simulation4300_celegans_G110000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G110000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G120000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G120000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G130000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G130000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G140000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G140000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G150000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G150000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G160000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G160000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G170000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G170000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G180000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G180000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G190000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G190000
+vcftools --vcf SimulationResults/Simulation4300_celegans_G200000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait4300_G200000
 
 
 
@@ -244,26 +246,26 @@ bin/SimBit f Dominance_Simulations/Dominance_Trait5_300.txt all
 ## Obtain heterozygosity, measuring with inbreeding coefficient F, from all specified generations from vcf files
 vcftools --vcf SimulationResults/Simulation5300_celegans_G0.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G0
 vcftools --vcf SimulationResults/Simulation5300_celegans_G2.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G2
-vcftools --vcf SimulationResults/Simulation5300_celegans_G50.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G50
-vcftools --vcf SimulationResults/Simulation5300_celegans_G100.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G100
-vcftools --vcf SimulationResults/Simulation5300_celegans_G150.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G150
-vcftools --vcf SimulationResults/Simulation5300_celegans_G200.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G200
-vcftools --vcf SimulationResults/Simulation5300_celegans_G250.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G250
-vcftools --vcf SimulationResults/Simulation5300_celegans_G300.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G300
-vcftools --vcf SimulationResults/Simulation5300_celegans_G350.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G350
-vcftools --vcf SimulationResults/Simulation5300_celegans_G400.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G400
-vcftools --vcf SimulationResults/Simulation5300_celegans_G450.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G450
-vcftools --vcf SimulationResults/Simulation5300_celegans_G501.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G501
-vcftools --vcf SimulationResults/Simulation5300_celegans_G550.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G550
-vcftools --vcf SimulationResults/Simulation5300_celegans_G600.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G600
-vcftools --vcf SimulationResults/Simulation5300_celegans_G650.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G650
-vcftools --vcf SimulationResults/Simulation5300_celegans_G700.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G700
-vcftools --vcf SimulationResults/Simulation5300_celegans_G750.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G750
-vcftools --vcf SimulationResults/Simulation5300_celegans_G800.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G800
-vcftools --vcf SimulationResults/Simulation5300_celegans_G850.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G850
-vcftools --vcf SimulationResults/Simulation5300_celegans_G900.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G900
-vcftools --vcf SimulationResults/Simulation5300_celegans_G950.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G950
-vcftools --vcf SimulationResults/Simulation5300_celegans_G1000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G1000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G10000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G10000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G20000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G20000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G30000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G30000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G40000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G40000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G50000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G50000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G60000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G60000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G70000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G70000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G80000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G80000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G90000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G90000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G100001.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G100001
+vcftools --vcf SimulationResults/Simulation5300_celegans_G110000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G110000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G120000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G120000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G130000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G130000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G140000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G140000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G150000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G150000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G160000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G160000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G170000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G170000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G180000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G180000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G190000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G190000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G200000.T1vcf --het --out SimulationResults/heterozygosity/output_heterozygosity_Trait5300_G200000
 
 
 
@@ -271,25 +273,23 @@ vcftools --vcf SimulationResults/Simulation5300_celegans_G1000.T1vcf --het --out
 ## Obtain site nucleotide diversity estimates from vcf files 
 vcftools --vcf SimulationResults/Simulation5300_celegans_G0.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G0
 vcftools --vcf SimulationResults/Simulation5300_celegans_G2.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G2
-vcftools --vcf SimulationResults/Simulation5300_celegans_G50.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G50
-vcftools --vcf SimulationResults/Simulation5300_celegans_G100.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G100
-vcftools --vcf SimulationResults/Simulation5300_celegans_G150.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G150
-vcftools --vcf SimulationResults/Simulation5300_celegans_G200.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G200
-vcftools --vcf SimulationResults/Simulation5300_celegans_G250.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G250
-vcftools --vcf SimulationResults/Simulation5300_celegans_G300.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G300
-vcftools --vcf SimulationResults/Simulation5300_celegans_G350.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G350
-vcftools --vcf SimulationResults/Simulation5300_celegans_G400.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G400
-vcftools --vcf SimulationResults/Simulation5300_celegans_G450.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G450
-vcftools --vcf SimulationResults/Simulation5300_celegans_G501.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G501
-vcftools --vcf SimulationResults/Simulation5300_celegans_G550.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G550
-vcftools --vcf SimulationResults/Simulation5300_celegans_G600.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G600
-vcftools --vcf SimulationResults/Simulation5300_celegans_G650.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G650
-vcftools --vcf SimulationResults/Simulation5300_celegans_G700.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G700
-vcftools --vcf SimulationResults/Simulation5300_celegans_G750.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G750
-vcftools --vcf SimulationResults/Simulation5300_celegans_G800.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G800
-vcftools --vcf SimulationResults/Simulation5300_celegans_G850.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G850
-vcftools --vcf SimulationResults/Simulation5300_celegans_G900.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G900
-vcftools --vcf SimulationResults/Simulation5300_celegans_G950.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G950
-vcftools --vcf SimulationResults/Simulation5300_celegans_G1000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G1000
-
-
+vcftools --vcf SimulationResults/Simulation5300_celegans_G10000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G10000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G20000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G20000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G30000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G30000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G40000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G40000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G50000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G50000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G60000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G60000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G70000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G70000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G80000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G80000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G90000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G90000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G100001.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G100001
+vcftools --vcf SimulationResults/Simulation5300_celegans_G110000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G110000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G120000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G120000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G130000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G130000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G140000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G140000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G150000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G150000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G160000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G160000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G170000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G170000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G180000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G180000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G190000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G190000
+vcftools --vcf SimulationResults/Simulation5300_celegans_G200000.T1vcf --site-pi --out SimulationResults/PI/output_pi_Trait5300_G200000
