@@ -1784,7 +1784,7 @@ y5<- ((p*(1-p)*(2*N-1)/N^3)*(((-2*h+1)*N+N-(-2*h+1))^2-2*(-2*h+1)*p*(N-1)*(2*N*(
 
 plots1<- qplot(N,y5)+labs(y="Post-bottleneck VA", x="No. Founders")+theme_classic()
 
-plots1
+figureS1<- plots1
 
 
 
@@ -1857,7 +1857,7 @@ plot5<- qplot(N5,y5)+labs(y="E(VA)", x="No. Founders", title = "h=0.5")+theme_cl
 
 
 
-ggarrange(plot1,plot2,plot3,plot4,plot5) 
+FigureS3<- ggarrange(plot1,plot2,plot3,plot4,plot5)  
 
 
 
