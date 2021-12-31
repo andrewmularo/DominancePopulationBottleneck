@@ -66,6 +66,11 @@
 
 ## We varied the average dominance coefficient, H , based off of the specific simulation (H=0.0,0.125,0.25,0.375,0.5)
 ## We kept the fitness function constant across all loci for all simulations (0.5)
+## Trait 1: H=0.0
+## Trait 2: H=0.125
+## Trait 3: H=0.25
+## Trait 4: H=0.375
+## Trait 5: H=0.5
 
 
 ## Recombination rate - 
