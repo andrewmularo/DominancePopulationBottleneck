@@ -7,7 +7,7 @@
 # ====================== Model Equations and Plots ========================================
 
 ## Set appropriate working directory 
-setwd("C://Users/andre/OneDrive/Documents/Dissertation/Critical Review/PopGen_Simulations/SimBit/SimulationResults/ThirdRun_500individuals")
+setwd("")
 
 ## Load all necessary packages 
 library(deSolve)
