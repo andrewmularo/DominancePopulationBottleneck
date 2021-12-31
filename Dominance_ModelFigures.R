@@ -1433,6 +1433,7 @@ figure5
 ## Figure 6 - The number of founders required to maintain the maximum amount of additive variance 
 ##  under various combinations of dominance coefficients and selection coefficients under different allele frequencies for a model of purifying selection
 
+
 #### s = 0.001 ###########################################################
 ### Set up continuous scale of selection coefficients 
 c.vec<- rep(0,100)
@@ -1504,9 +1505,9 @@ plot1<- ggplot(model3, aes(x=Var2, y=Var1))+
   scale_y_discrete(breaks = c(0,0.1,0.2,0.3,0.4,0.5))+
   theme(axis.text.x = element_blank(),
         axis.title.x = element_blank(),
-        axis.text.y = element_text(face = "bold", color = "black", size = 7),
-        axis.title.y = element_text(face = "bold", color = "black", size = 10), 
-        title = element_text(size = 25, face = "bold"),
+        axis.text.y = element_text(face = "bold", color = "black", size = 10),
+        axis.title.y = element_text(face = "bold", color = "black", size = 13), 
+        title = element_text(size = 20, face = "bold"),
         legend.text = element_text(face = "bold", color = "black", size = 18), 
         legend.title = element_text(face = "bold", color = "black", size = 25))
 
@@ -1583,8 +1584,8 @@ plot2<- ggplot(model3, aes(x=Var2, y=Var1))+
   scale_y_discrete(breaks = c(0,0.1,0.2,0.3,0.4,0.5))+
   theme(axis.text.x = element_blank(),
         axis.title.x = element_blank(),
-        axis.text.y = element_text(face = "bold", color = "black", size = 7),
-        axis.title.y = element_text(face = "bold", color = "black", size = 10), 
+        axis.text.y = element_text(face = "bold", color = "black", size = 10),
+        axis.title.y = element_text(face = "bold", color = "black", size = 13), 
         title = element_text(size = 20, face = "bold"),
         legend.text = element_text(face = "bold", color = "black", size = 18), 
         legend.title = element_text(face = "bold", color = "black", size = 25))
@@ -1661,10 +1662,10 @@ plot3<- ggplot(model3, aes(x=Var2, y=Var1))+
   labs(x="Mutant Frequency (q)", y="Dominance Coefficient (h)", title = "s=0.1")+
   scale_x_discrete(breaks = c(0.01,0.25,0.5,0.75,0.99))+
   scale_y_discrete(breaks = c(0,0.1,0.2,0.3,0.4,0.5))+
-  theme(axis.text.x = element_text(face = "bold", color = "black", size = 7),
-        axis.title.x = element_text(face = "bold", color = "black", size = 10),
-        axis.text.y = element_text(face = "bold", color = "black", size = 7),
-        axis.title.y = element_text(face = "bold", color = "black", size = 10), 
+  theme(axis.text.x = element_text(face = "bold", color = "black", size = 10),
+        axis.title.x = element_text(face = "bold", color = "black", size = 13),
+        axis.text.y = element_text(face = "bold", color = "black", size = 10),
+        axis.title.y = element_text(face = "bold", color = "black", size = 13), 
         title = element_text(size = 20, face = "bold"),
         legend.text = element_text(face = "bold", color = "black", size = 18), 
         legend.title = element_text(face = "bold", color = "black", size = 25))
@@ -1742,10 +1743,10 @@ plot4<- ggplot(model3, aes(x=Var2, y=Var1))+
   labs(x="Mutant Frequency (q)", y="Dominance Coefficient (h)", title = "s=0.5")+
   scale_x_discrete(breaks = c(0.01,0.25,0.5,0.75,0.99))+
   scale_y_discrete(breaks = c(0,0.1,0.2,0.3,0.4,0.5))+
-  theme(axis.text.x = element_text(face = "bold", color = "black", size = 7),
-        axis.title.x = element_text(face = "bold", color = "black", size = 10),
-        axis.text.y = element_text(face = "bold", color = "black", size = 7),
-        axis.title.y = element_text(face = "bold", color = "black", size = 10), 
+  theme(axis.text.x = element_text(face = "bold", color = "black", size = 10),
+        axis.title.x = element_text(face = "bold", color = "black", size = 13),
+        axis.text.y = element_text(face = "bold", color = "black", size = 10),
+        axis.title.y = element_text(face = "bold", color = "black", size = 13), 
         title = element_text(size = 20, face = "bold"),
         legend.text = element_text(face = "bold", color = "black", size = 18), 
         legend.title = element_text(face = "bold", color = "black", size = 25))
