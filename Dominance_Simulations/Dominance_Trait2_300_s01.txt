@@ -1,0 +1,51 @@
+## Read In bin/SimBit f Dominance_Simulations/Dominance_Trait2_300_s01.txt all 
+
+## Name of species - C elegans
+
+--S celegans 
+
+#### Set number of generations 
+
+--nbGens 200000
+
+#### Set Patch Size 
+
+--PatchNumber 1
+
+### Carrrying Capacity for each generation
+
+--N @G0 unif 10000 @G100000 unif 300 @G100001 unif 10000 
+
+
+
+#### Basic Locus Information (Choosing T1 Loci)
+
+--L T1 50
+
+### Mutation Rate
+
+--T1_mu unif 1e-4
+
+### Dominance Effects, fitness function 0.5 across all loci 
+
+
+--T1_fit domA cst 0.125 rep 0.9 50
+
+
+## Recombination Rate 
+--r rate unif 1e-6
+
+
+
+##### OUTPUT 
+
+--GeneralPath ./SimulationResults/Simulation2300
+--Logfile Simulation2300_log --LogfileType 2 
+--T1_vcf_file nfn 0 2 10000 20000 30000 40000 50000 60000 70000 80000 90000 100001 110000 120000 130000 140000 150000 160000 170000 180000 190000 200000
+
+
+
+
+
+
+
